@@ -3,4 +3,6 @@ applications:
 - name: spring-env
   memory: 512M
   instances: 1
+  host: spring-env-hello
+  url: cfapps.io
   path: target/spring-hello-env-1.0.0-BUILD-SNAPSHOT
